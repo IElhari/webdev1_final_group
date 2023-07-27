@@ -1,57 +1,89 @@
 # 🌐 **Final Group Project: Agile Web Development with NextJS**
 
-## **You can reuse your group project repository from your mid-term project**
+## **Building Upon Foundations**
 
-## **Assignment Overview**
+It's time to harness the insights from your mid-term project. As you dive into this comprehensive assignment, remember the personas, customer journey, and branding concepts previously crafted. The foundations are set; now, we transition into a full-fledged web solution using advanced development techniques and agile project management.
 
-Your team's objective is to craft a comprehensive web solution, melding your mid-term project's insights on personas, customer journey, and branding with advanced web development techniques and agile project management. This assignment will assess both your theoretical knowledge and practical prowess, pushing you to implement NextJS, Playwright, GitHub Actions, Google Analytics, and Mailchimp holistically.  Your project is required to implement Google Analytics to track user interaction and conversion i.e. that your site visitor signed up to your company by providing their email through a form that will send it to the service MailChimp.  However, in order to do this legally you will need to have a privacy policy page and setup Google Analytics properly for GDPR compliance.
+## **Assignment Goals**
 
-Google Analytics provides insights into user behavior on a website, tracking metrics from page views to conversions, enabling businesses to make informed decisions. However, in the era of data privacy, comes the General Data Protection Regulation (GDPR) – a European Union regulation that mandates explicit user consent before collecting any personal data. This means that before leveraging tools like Google Analytics, businesses must ensure users are well-informed and have granted permission for their data to be used. Enter Mailchimp, a marketing automation platform, which not only helps businesses grow their audience but also integrates seamlessly with these data privacy practices. By using Mailchimp, businesses can ensure GDPR compliance when collecting user information, such as email addresses, while also benefiting from its analytics features to understand subscriber behaviors. Together, Google Analytics, GDPR, and Mailchimp form a trifecta, balancing powerful insights with crucial data privacy standards.
+- **Web Solution Integration**: Develop a web solution that integrates the theoretical knowledge and practical skills acquired throughout the course.
+  
+- **Technical Incorporation**: Seamlessly incorporate NextJS, Playwright, GitHub Actions, Google Analytics, and Mailchimp.
 
-Your project will harness Mailchimp's capabilities, ensuring you gather email addresses legally and adhere to best email practices. Besides being a marketing tool, Mailchimp aids businesses in staying compliant with email laws by providing GDPR-friendly forms, an unsubscribe link in every campaign, and the essential double opt-in feature.
+- **Web Design**: Design a Figma representation of your website.
 
-**You need to deploy your site on Vercel or GitHub pages and put a link to your deployed site and the persentation video on the readme.md**
+- **Project Management**: Employ an Agile project management methodology, with a particular emphasis on Playwright for testing.
+
+- **User Tracking**: Track user interactions and conversions, emphasizing users signing up through Mailchimp. Ensure legal and ethical data collection through GDPR compliance.
+
+- **Team Collaboration**: Facilitate collaboration among group members, designating roles based on strengths.
+
+## **Technical Requirements**
+
+1. **NextJS**: The backbone of your website.
+  
+2. **Google Analytics & GDPR**: 
+   - Monitor user behaviors, ensuring GDPR compliance when tracking metrics.
+   - Create a privacy policy page to legitimize the collection of user data.
+   - Prioritize understanding Google Analytics integration with NextJS under GDPR regulations. Consider designating a team member with technical proficiency for this task.
+
+3. **Mailchimp**: 
+   - Incorporate Mailchimp for email collection. 
+   - Make sure the process is GDPR compliant. Mailchimp assists in acquiring email addresses legally and ensures compliance with email laws.
+   - Features to harness: GDPR-friendly forms, unsubscribe links, double opt-in procedures.
+
+4. **Playwright**: Use Playwright for testing each user story and its acceptance criteria.
+
+5. **GitHub Actions**: Utilize previously set up GitHub actions and configurations for an efficient workflow.
+
+6. **Figma**: Design and showcase your web interfaces.
+
+7. **Agile Methodology**: 
+   - Leverage the principles of Agile.
+   - **Use GitHub projects/issues to manage user stories (at least 10 per person)** with story points and acceptance criteria.
+   - Each visual user story should link back to its Figma design.
+   - Compile all issues into a document with direct links for easy assessment.
+
+8. **QA Process**: 
+   - Before submission, your team should engage in a manual QA review.
+   - Identify a minimum of 5 issues, resolve them, and document the process as a group activity report.
+
+9. **Deployment**: 
+   - Launch your website using Vercel or GitHub pages.
+   - The repository's `readme.md` should contain links to the deployed site and presentation video.
+
+## **User Journey**
+
+1. **Discovery**: User discovers the site via a shared link. Ensure that social media metadata (like Twitter and Facebook) showcases your brand appropriately, complete with engaging imagery. [Reference here](https://www.youtube.com/watch?v=AIbSlwz2u5I).
+  
+2. **Engagement**: On arriving at the homepage, the user encounters the hero text and the primary call-to-action (CTA). This CTA interaction should be tracked as an event in Google Analytics.
+  
+3. **Conversion**: Upon clicking the CTA, users should be prompted to sign up with their email address. Track form submissions in Google Analytics to document the entire user conversion journey.
 
 ## **Final Presentation**
 
-Your presentation is a holistic showcase of your project. In a concise 5-minute video, guide us through:
+Your presentation should be a captivating journey through your project, captured in a concise 5-minute video. Address the following:
 
-1. **Your Brand's Story**: Discuss your brand archetype and persona.
-2. **Website Walkthrough**: Navigate your website, highlighting user stories and their relation to your brand and target persona.
-3. **Technical Demonstrations**: Exhibit your Playwright tests in action, show your GitHub Actions workflow, and walk us through a user's journey, from landing on your site to signing up via Mailchimp.
-4. **Google Analytics Insights**: Highlight key data points, showcasing how users navigate your site.
-5. **Closing Remarks**: End with reflections on your project, challenges faced, and lessons learned.
+1. **Brand's Journey**: Share your brand's story, archetype, and persona.
+  
+2. **Website Experience**: Walk us through your site, spotlighting the user stories and their alignment with your brand and target audience.
+  
+3. **Tech Showcase**: Demonstrate Playwright tests, highlight GitHub Actions, and narrate a user's journey from their initial landing to Mailchimp signup.
+  
+4. **Data Insights**: Unveil key Google Analytics data points, illustrating user navigation patterns.
+  
+5. **Concluding Thoughts**: Reflect on your journey, obstacles tackled, and the knowledge gained.
 
-Remember, while technical demonstrations are crucial, the essence of your presentation should be the holistic journey—from your brand's story to the technical intricacies.
+Aim for a balanced presentation that not only celebrates the technical aspects but also the brand's narrative and the strategic decisions made throughout the project.
 
 
-## Agile Group Documentation Requirement.
-You will need to create at least 10 user stories with story points and acceptance criteria per person.  You will need to track all of these using GitHub project/issues and provide a document that lists all of the issues and links to the issue, so that iit can be easily reviewed.  This will serve as your group activity report.
+## **Technical Integration and Required Videos and Readings**
 
-## **Assignment Introduction**
-
-Your final project isn't just about creating a website—it's an adventure through the lifecycle of a real-world product. Dive deep into Agile methodologies, and embody roles from Product Managers to DevOps Engineers, blending the creative with the technical. 
-
-This assignment leans on your mid-term project, demanding a translation of your branding guide, personas, and customer journey into a live, interactive website. The spirit of Agile will be your guide, while Playwright ensures your site functions seamlessly. Tools like NextJS and GitHub Actions will be your allies, streamlining development and deployment.
-
-Every piece of content on your site, from the hero section to the footer, should have a distinct user story rooted in your brand and the needs of your target audience. And remember, while development is essential, the soul of this project is how well you integrate the elements from your mid-term project.  **Your main objective is to track if someone puts their email address to signup for MailChimp**  You want to track the events on the site.
-
-**Your customer jounrney will look like this:**
-
-1. User finds the site through a link <- make sure your social media meta data (twitter / facebook) are all setup correctly with a nice image. [See here](https://www.youtube.com/watch?v=AIbSlwz2u5I)
-2. User goes to the homepage and sees the hero text and the call to action.  THey click the call to action to signup and you should track this as an event in google analytics
-3. The user enters their email address to signup and submits.  YOou should track the form submission event even if you can see the users email in mailchimp, so your data shows the whole process in Google Analytics.
-
-## **Technical Integration**
-
-1. **NextJS**: Harness the power of NextJS to bring your website to life.
-2. **Playwright**: Implement Playwright tests for all user stories and acceptance criteria. Remember, every part of your site—every text area, every function—should be under Playwright's watchful eye.
-3. **GitHub Actions**: Incorporate GitHub Actions to automate your workflow, from development to deployment.
-4. **Mailchimp**: Integrate [Mailchimp](https://mailchimp.com) to collect user signups, marking the critical conversion point for your site.
+1. **Mailchimp**: Integrate [Mailchimp](https://mailchimp.com) to collect user signups, marking the critical conversion point for your site.
     - [Very Basic Mailchimp form - you can do this first but you should really try to implement the better integration below ](https://www.youtube.com/watch?v=3fF57uIWYIg)
     - [Video of the repo below using mailchimp and nextjs](https://www.youtube.com/watch?v=wcG6xNe10Y4)
     - [Repo with NextJS and MailChimp Example](https://github.com/ebraj/Newsletter)
-5. **[Google Analytics 4 and GDPR Compliance](https://developers.google.com/analytics/devguides/collection/ga4)**: Seamlessly integrate Google Analytics, ensuring you're GDPR compliant and respecting user consent. Your aim is to track user journeys, understanding how users navigate your site, and how many reach the conversion point. Use the tutorials provided to ensure accurate implementation:
+2. **[Google Analytics 4 and GDPR Compliance](https://developers.google.com/analytics/devguides/collection/ga4)**: Seamlessly integrate Google Analytics, ensuring you're GDPR compliant and respecting user consent. Your aim is to track user journeys, understanding how users navigate your site, and how many reach the conversion point. Use the tutorials provided to ensure accurate implementation:
    - [Very Basic Intro to GDPR](https://www.youtube.com/watch?v=NcHSD3fWJiQ)
    - [Issues with GDPR and GOogle Analytics](https://www.youtube.com/watch?v=xBMPtaaweTs)
    - [Google Analytics Basic Setup in general](https://www.youtube.com/watch?v=xvt9x2lm5vw)
@@ -59,8 +91,7 @@ Every piece of content on your site, from the hero section to the footer, should
    - [Overview of the steps to make GA4 compliant with GDPR]
    - [GDPR and Google Analytics Integration](https://dev.to/ramonak/react-enable-google-analytics-after-a-user-grants-consent-5bg3)
    - [Conversions with Google Analytics](https://support.google.com/analytics/answer/12966437?hl=en)
-
-6. **Privacy Policy**: Generate a comprehensive privacy policy using tools like [Termly.io](https://termly.io/).
+   - **Privacy Policy**: Generate a comprehensive privacy policy using tools like [Termly.io](https://termly.io/).
 
 ## **Grading Metrics**
 
