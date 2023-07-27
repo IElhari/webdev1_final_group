@@ -2,7 +2,14 @@
 
 ## **Building Upon Foundations**
 
-It's time to harness the insights from your mid-term project. As you dive into this comprehensive assignment, remember the personas, customer journey, and branding concepts previously crafted. The foundations are set; now, we transition into a full-fledged web solution using advanced development techniques and agile project management.
+It's time to harness the insights from your mid-term project. As you dive into this comprehensive assignment, remember the personas, customer journey, and branding concepts previously crafted. The foundations are set; now, we transition into a full-fledged web solution using advanced development techniques and agile project management. 
+
+## Website Info Architecture / Design Requirements
+
+1.  Homepage - Hero section with call to action and form
+2.  About page
+3.  Blog with 2-3 articles that reflect your brand <- Social media meta data and share links and uses mardkown like we did in the nextJS tutorial
+4.  Privacy policy 
 
 ## **Assignment Goals**
 
