@@ -10,6 +10,21 @@ Google Analytics provides insights into user behavior on a website, tracking met
 
 Your project will harness Mailchimp's capabilities, ensuring you gather email addresses legally and adhere to best email practices. Besides being a marketing tool, Mailchimp aids businesses in staying compliant with email laws by providing GDPR-friendly forms, an unsubscribe link in every campaign, and the essential double opt-in feature.
 
+**You need to deploy your site on Vercel or GitHub pages and put a link to your deployed site and the persentation video on the readme.md**
+
+## **Final Presentation**
+
+Your presentation is a holistic showcase of your project. In a concise 5-minute video, guide us through:
+
+1. **Your Brand's Story**: Discuss your brand archetype and persona.
+2. **Website Walkthrough**: Navigate your website, highlighting user stories and their relation to your brand and target persona.
+3. **Technical Demonstrations**: Exhibit your Playwright tests in action, show your GitHub Actions workflow, and walk us through a user's journey, from landing on your site to signing up via Mailchimp.
+4. **Google Analytics Insights**: Highlight key data points, showcasing how users navigate your site.
+5. **Closing Remarks**: End with reflections on your project, challenges faced, and lessons learned.
+
+Remember, while technical demonstrations are crucial, the essence of your presentation should be the holistic journey—from your brand's story to the technical intricacies.
+
+
 ## Agile Group Documentation Requirement.
 You will need to create at least 10 user stories with story points and acceptance criteria per person.  You will need to track all of these using GitHub project/issues and provide a document that lists all of the issues and links to the issue, so that iit can be easily reviewed.  This will serve as your group activity report.
 
@@ -60,18 +75,6 @@ Every piece of content on your site, from the hero section to the footer, should
 - **Final Presentation**: Your video presentation's clarity, depth, and adherence to the brief. *(10 Points)*
 
 **Total**: 100 Points
-
-## **Final Presentation**
-
-Your presentation is a holistic showcase of your project. In a concise 5-minute video, guide us through:
-
-1. **Your Brand's Story**: Discuss your brand archetype and persona.
-2. **Website Walkthrough**: Navigate your website, highlighting user stories and their relation to your brand and target persona.
-3. **Technical Demonstrations**: Exhibit your Playwright tests in action, show your GitHub Actions workflow, and walk us through a user's journey, from landing on your site to signing up via Mailchimp.
-4. **Google Analytics Insights**: Highlight key data points, showcasing how users navigate your site.
-5. **Closing Remarks**: End with reflections on your project, challenges faced, and lessons learned.
-
-Remember, while technical demonstrations are crucial, the essence of your presentation should be the holistic journey—from your brand's story to the technical intricacies.
 
 ---
 
