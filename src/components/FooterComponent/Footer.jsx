@@ -1,11 +1,14 @@
-import React from 'react'
-import styles from './Footer.module.css'
-import {Inknut_Antiqua, Open_Sans} from 'next/font/google'
-import Image from 'next/image'
-import Link from 'next/link'
-const inknut = Inknut_Antiqua({display:"swap",subsets:["latin"],weight:["500"]})
-const opensans = Open_Sans({display:"swap",subsets:["latin"],weight:["500","700"]})
+import React from 'react';
+import styles from './Footer.module.css';
+// import { Inknut_Antiqua, Open_Sans } from 'next/font/google'; // Commented out as it's not used.
+import Image from 'next/image';
+import Link from 'next/link';
+
+// const inknut = Inknut_Antiqua({ display: "swap", subsets: ["latin"], weight: ["500"] }); // Commented out as it's not used.
+// const opensans = Open_Sans({ display: "swap", subsets: ["latin"], weight: ["500", "700"] }); // Commented out as it's not used.
+
 const GymFooter = () => {
+  
   return (
     <footer className={styles.footer} id="ConnectWithUs">
       <div className={styles.branding}>
@@ -28,7 +31,7 @@ const GymFooter = () => {
         <p>© 2023 Fitness Club. Stay Fit, Stay Awesome!</p>
       </div>
     </footer>
-  )
-}
+  );
+};
 
 export default GymFooter;

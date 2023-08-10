@@ -9,7 +9,7 @@ export default function GymHome() {
       
       {/* Hero Section */}
       <section className={styles.heroSection}>
-        <img src="./gymBackground.png" alt="Gym background" className={styles.heroImage} />
+      <img src="/gym.jpg" alt="Gym background" className={styles.heroImage} /> 
         
         <div className={styles.heroContent}>
           <h1 className={styles.heroTitle}>Unleash Your Inner Beast</h1>
@@ -17,20 +17,7 @@ export default function GymHome() {
           <button className={styles.ctaButton}>Join The Challenge</button>
         </div>
 
-        <div className={styles.athleteShowcase}>
-          <figure className={styles.athlete}>
-            <img src="./athlete1.png" alt="athlete doing push-ups" />
-            <figcaption>Power & Agility</figcaption>
-          </figure>
-          <figure className={styles.athlete}>
-            <img src="./athlete2.png" alt="athlete lifting weights" />
-            <figcaption>Strength & Dedication</figcaption>
-          </figure>
-          <figure className={styles.athlete}>
-            <img src="./equipment.png" alt="gym equipment" />
-            <figcaption>Top-tier Equipment</figcaption>
-          </figure>
-        </div>
+       
       </section>
       
       {/* Motivation Section */}
