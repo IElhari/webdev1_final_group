@@ -1,8 +1,10 @@
 import Nav from '@/components/NavComponent/Nav';
 import Footer from '@/components/FooterComponent/Footer';
 import Script from 'next/script';
+import Mailchimpform from '@/components/Mailchimpform';
 import Link from 'next/link';
 import './globals.css';
+
 
 export const metadata = {
   title: 'Elite Fitness Gym',
@@ -52,6 +54,7 @@ export default function RootLayout({ children }) {
         <main style={{ minHeight: "80vh" }}>
           {children}
         </main>
+
         <Footer />
       </body>
     </html>
