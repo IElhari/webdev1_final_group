@@ -35,15 +35,15 @@
     color: #ccc; /* Lighter Gray */
     text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
   }
-  .heroSection .ctaButton {
-    margin-top: 15px;
-    padding: 10px 18px;
-    border: 2px solid #007BFF;
-    border-radius: 45px;
-    background-color: transparent;
-    color: #007BFF;
-    cursor: pointer;
-    transition: all 0.25s;
+ .heroSection {
+    position: relative;
+    height: 88vh;
+    width: 100%;
+    background-image: url("/gym.jpg");
+    background-repeat: repeat-x;  /* This will make it repeat horizontally */
+    background-size: auto 88vh;  /* This adjusts the height of each image to fit the section */
+    background-position: center top;
+
   }
   .heroSection .ctaButton:hover {
     background-color: #007BFF;
